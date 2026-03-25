@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 .hero-text{
+    color: #FDF9F4;
     margin-left: 6vw;
     width: 45vw;
     margin-top: 17vh;    
@@ -36,13 +37,49 @@ p{
     
 }
 
+.btns{
+    display: flex;
+}
+
 .explr-btn button{
     border: none;
     font-family: 'Manrope';
     background-color: #7D5A50;
-    color: #DAC2B5;
+    color: #FFD6CA;
     padding: 15px;
     margin-top: 40px;
     width: 14vw;
     border-radius: 15px;
+    cursor: pointer;
+    
+    transition: all 0.35s ease;
+}
+
+.explr-btn button:hover{
+    filter: brightness(1.1);
+}
+
+
+.philosophy-btn button{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    border: none;
+    font-family: 'Manrope';
+    background-color: transparent;
+    color: #E9BCB0;
+    padding: 15px;
+    margin: 40px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/* arrow animation */
+.arrow{
+    transition: transform 0.3s ease;
+}
+
+/* hover effect */
+.philosophy-btn button:hover .arrow{
+    transform: translateX(6px);
 }
