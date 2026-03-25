@@ -1,0 +1,126 @@
+.seasonal{
+    padding: 100px 6vw;
+    background:#131411;
+    color:#FDF9F4;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading h1{
+    font-family: 'Noto Serif';
+    font-size: 48px;
+    font-weight: 300;
+}
+
+.heading p{
+    font-family: 'Manrope';
+    font-size: 16px;
+    font-weight: 500;
+    color:#c8b3a7;
+    margin-top:10px;
+    letter-spacing:2px;
+}
+
+.catalogue{
+    margin-top:60px;
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+    gap:30px;
+}
+
+.card{
+    border-radius:20px;
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    overflow:hidden;
+    font-family: 'Noto Serif';
+}
+
+.big{
+    height: 75vh;
+    background-image:url("/mocha.png");
+}
+
+.right{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    font-style: italic;
+    /* gap:30px; */
+}
+
+.small{
+    height:35.5vh;
+}
+
+.scone{
+    background-image:url("/scone.png");
+}
+
+.brew{
+    background-image:url("/brew.png");
+}
+
+.overlay{
+    position:absolute;
+    inset:0;
+    padding:40px;
+    
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-end;
+    
+    background:linear-gradient(
+        to top,
+        rgba(0,0,0,0.75),
+        rgba(0,0,0,0.25),
+        transparent
+        );
+    }
+    
+    .tag{
+        font-size:12px;
+        letter-spacing:3px;
+        color:#e9bcb0;
+        margin-bottom:10px;
+    }
+    
+    .overlay h2{
+        font-family:'Noto Serif';
+        font-size:34px;
+        font-style: italic;
+        font: weight 400px;
+    }
+    
+    .overlay h3{
+        font-family:'Noto Serif';
+        font-size:28px;
+        color: #D4C3BE;
+        font-weight:400;
+    }
+    
+    .desc{
+        width:60%;
+        color:#d5c0b5;
+        margin:10px 0;
+        letter-spacing: 5%;
+        font-size: 15px;
+        font-family: 'Noto serif';
+        font-weight: 400;
+    }
+
+.price{
+    margin-top:10px;
+    color:#e7c8b9;
+}
+
+span{
+    color: #D4C3BE;
+    font-family: 'Manrope';
+    font-size: 14px;
+        
+}

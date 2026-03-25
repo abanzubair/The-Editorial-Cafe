@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 
 .hero-text{
-    color: #FDF9F4;
+    color: #E5E2DD;
     margin-left: 6vw;
     width: 45vw;
-    margin-top: 17vh;    
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 h1{
@@ -21,7 +22,7 @@ h2{
     font-size: 20px;
     font-family: 'Noto Serif';
     font-weight: 400;
-    color: #DAC2B5;
+    color: #D4C3BE;
     letter-spacing: 3%;
     
 }
