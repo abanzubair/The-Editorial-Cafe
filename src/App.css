@@ -1,0 +1,22 @@
+body{
+  margin: 0;
+  background-color: #1C1C19;
+}
+
+.App{
+  min-height: 100vh;
+
+  background-image:
+    linear-gradient(
+        to right,
+        #141512,
+        #181816ec,
+        #1c1c1997,
+        transparent
+        ),
+    url("/hero-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+

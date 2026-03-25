@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+.hero-text{
+    margin-left: 6vw;
+    width: 45vw;
+    margin-top: 17vh;    
+}
+
+h1{
+    font-size: 100px;
+    font-family: 'Noto Serif';
+    font-weight: 300;
+    line-height: 95%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+h2{
+    width: 36vw;
+    font-size: 20px;
+    font-family: 'Noto Serif';
+    font-weight: 400;
+    color: #DAC2B5;
+    letter-spacing: 3%;
+    
+}
+
+i{
+    color: rgb(233 188 176);
+}
+p{
+    font-family: "Manrope", sans-serif;
+    font-size: small;
+    color: rgb(231, 200, 185);
+    letter-spacing: 3px;
+    
+}
+
+.explr-btn button{
+    border: none;
+    font-family: 'Manrope';
+    background-color: #7D5A50;
+    color: #DAC2B5;
+    padding: 15px;
+    margin-top: 40px;
+    width: 14vw;
+    border-radius: 15px;
+}
