@@ -10,6 +10,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1000;
 
     color: #FDF9F4;
     background-color: rgb(19 20 17 / 0.6);

@@ -1,6 +1,6 @@
 import './seasonal-curation.css'
 
-const Seasonal_curation = () =>{
+const Seasonal_curation = (props) =>{
     return(
         <section className="seasonal">
             
@@ -14,10 +14,9 @@ const Seasonal_curation = () =>{
                 <div className="card big">
                     <div className="overlay">
                         <p className="tag">NEW ARRIVAL</p>
-                        <h2>Smoked Cinnamon Mocha</h2>
+                        <h2>{props.title_main}</h2>
                         <p className="desc">
-                            Ecuadorian dark chocolate, toasted cinnamon bark,
-                            and our signature espresso.
+                            {props.desc_main}
                         </p>
                         <span className="price">Rs.249</span>
                     </div>
