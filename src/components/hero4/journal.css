@@ -1,0 +1,70 @@
+.journal{
+    padding: 100px 96px;
+    background-color: #141411;
+}
+
+.heading h1{
+    padding: 10px;
+    font-family: 'Noto Serif';
+    color: #e5e2dd;
+    font-size: 36px;
+    margin-bottom: 60px;
+    margin-left: 5px;
+    
+}
+
+.underline{
+    font-family: 'Noto Serif';
+    border-bottom: 1px solid #cfa08f;
+    padding-bottom: 16px;
+    font-size: 36px;
+    color: #e5e2dd;
+
+}
+.img{
+    height: 360px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    max-width:1300px;    
+    margin: 0 auto;       
+
+    gap: 40px;          
+}
+
+.journal .cards p{
+    font-size: 15px;
+    font-family: "Manrope";
+    margin: 20px 0 20px;
+    color: #cfa08f;
+}
+
+.journal .card{
+    border-radius: 0 !important;
+}
+
+.journal .cards h3{
+    color: #e5e2dd;
+    font-weight: 300;
+    font-size: 28px;
+}
+
+.journal .cards h4{
+    color: #d4c3be;
+    font-weight: 300;
+    font-size: 17px;
+    font-family: "Nato Serif";
+        margin: 20px 0 20px;
+
+}
