@@ -4,6 +4,7 @@ import Herotext from './components/hero/herotext'
 import Seasonal_curation from './components/hero2/seasonal-curation'
 import Atmos from './components/hero3/atmos'
 import Journal from './components/hero4/journal'
+import Footer from './components/footer/footer'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
       
       <Atmos/>
       <Journal/>
+      <Footer/>
     </>
   )
 }

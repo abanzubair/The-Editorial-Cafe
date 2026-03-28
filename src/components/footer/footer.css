@@ -1,0 +1,35 @@
+.footer{
+    background-color: #0e0e0c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 50px 35px 50px;
+    height: 20vh;
+    color: #fdf9f4;
+}
+
+.footer h1{
+    font-weight: 300;
+    font-size: 20px;
+    font-family: "Nato Serif";
+}
+
+.left p{
+    font-size: 14px;
+    font-family: "Manrope";
+    font-weight: 400;
+    letter-spacing: 12%;
+    margin-top: 10px;
+    color: #fdf9f463;
+}
+
+.footer ul{
+    font-style: normal;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    font-size: 12px;
+    font-family: "Manrope";
+    color: #fdf9f463;
+    letter-spacing: 12%;
+}

@@ -32,7 +32,7 @@
     
 }
 
-ul{
+.navbar ul{
     font-family: 'Noto Serif', serif;
     font-weight:200;
     display: flex;
