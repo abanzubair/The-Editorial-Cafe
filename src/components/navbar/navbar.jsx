@@ -1,12 +1,13 @@
+import { Link } from 'react-router-dom'
 import './navbar.css'
 
 const Navbar = () => {
     return(
         <div className="navbar">
-            <div className="logo">The Editorial Café</div>
+            <Link to="/" className="logo" style={{ textDecoration: 'none', color: 'inherit' }}>The Editorial Café</Link>
 
             <ul>
-                <li>Menu</li>
+                <li><Link to="/menu" style={{ textDecoration: 'none', color: 'inherit' }}>Menu</Link></li>
                 <li>Journal</li>
                 <li>Locations</li>
             </ul>

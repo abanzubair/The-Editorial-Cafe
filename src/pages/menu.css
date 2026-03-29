@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+::-webkit-scrollbar {
+    display: none;
+}
+
+.menu-hero-section{
+    height: 100vh;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+
+    background-image:
+        linear-gradient(
+            to right,
+            rgba(24, 23, 22, 0.90),
+            rgba(24, 23, 22, 0.85),
+            rgba(24, 23, 22, 0.75),
+            rgba(24, 23, 22, 0.75)
+        ),
+        url("/menu.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.menu-text {
+    margin-left: 6vw;
+    width: 45vw;
+    margin-top: auto;
+    margin-bottom: 10vh;
+
+    opacity: 0;
+    transform: translateY(25px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.menu-text.menu-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.menu-text .anthology {
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    color: #e6beac;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.menu-text h1 {
+    font-size: 100px;
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 95%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    color: #e5e2dd;
+}
+
+.menu-text p.desc {
+    width: 36vw;
+    font-size: 20px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 300;
+    color: #d4c3be;
+    letter-spacing: 0.03em;
+    padding-bottom: 40px;
+}
+
+.menu-text .availability {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: "Manrope", sans-serif;
+    font-size: 14px;
+    color: #d4c3be;
+}
+
+.menu-text .availability .line {
+    width: 40px;
+    height: 1px;
+    background-color: #8c7e7b;
+}
