@@ -1,12 +1,12 @@
 .atmos{
 
-    margin: 0 200px;
+    margin: 0 230px;
     min-height: 100vh;
-    gap: 2rem;
+    gap: 3.5rem;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
+    align-content: center;
 
     color:#e5e2dd;
 }
@@ -24,7 +24,9 @@ span{
 
 .atmos-brew h1{
     font-size: 60px;
-    font-style: italic;
+    font-weight: lighter;
+    line-height: 1;
+    margin-bottom: 20px;
 }
 
 .narrative{
@@ -40,14 +42,15 @@ span{
     padding-bottom: 35px;
 }
 
-h3{
+.atmos-brew h3{
     font-family: "Nato serif";
     font-size: 22px;
+    font-weight: lighter;
     color: #e5e2dd;
 }
 
 .atmos p{
-    letter-spacing: normal;
+    letter-spacing: 2%;
     font-family: "nato serif";
     color: #d4c3be;
     font-size: 18px;
@@ -63,12 +66,11 @@ h3{
     justify-content: center;    
 }
 
-.quote{
-    font-family:'Noto Serif';
-    font-size: 24px;
+.quote-box p{
+    margin-top: 10px;
     font-style: italic;
-    font-weight:400;
-    line-height: 1.4;
+    font-weight: 600;
+    font-size: 26px !important;
     color:#e6beac;
 }
 
@@ -76,6 +78,6 @@ h3{
     display:block;
     margin-top:20px;
     letter-spacing:2px;
-    font-size:13px;
+    font-size:12px;
     color:#9f938d;
 }

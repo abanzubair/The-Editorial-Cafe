@@ -93,7 +93,8 @@
         font-family:'Noto Serif';
         font-size:34px;
         font-style: italic;
-        font: weight 400px;
+        font-weight: 400;
+        color: #D4C3BE;
     }
     
     .overlay h3{
