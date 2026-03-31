@@ -1,5 +1,11 @@
 import { useEffect, useState } from 'react'
 import Navbar from '../components/navbar/navbar'
+import MenuNav from '../components/menu-nav/menu-nav'
+import CoffeeRoasts from '../components/coffee-roasts/coffee-roasts'
+import CoffeeQuote from '../components/coffee-quote/coffee-quote'
+import ArtisanTea from '../components/artisan-tea/artisan-tea'
+import Pastries from '../components/pastries/pastries'
+import Sandwiches from '../components/sandwiches/sandwiches'
 import Footer from '../components/footer/footer'
 import './menu.css'
 
@@ -37,7 +43,17 @@ function Menu() {
           </div>
         </div>
       </div>
-      
+
+      {/* sticky category navigation */}
+      <MenuNav/>
+
+      {/* menu sections*/}
+      <CoffeeRoasts/>
+      <CoffeeQuote/>
+      <ArtisanTea/>
+      <Pastries/>
+      <Sandwiches/>
+
       <Footer/>
     </>
   )

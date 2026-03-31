@@ -1,0 +1,83 @@
+.artisan-tea {
+    padding: 80px 6vw;
+    background: #1c1c19;
+    color: #fdf9f4;
+}
+
+.tea-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap: 6rem;
+    align-items: start;
+}
+
+/* left items column */
+.tea-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.tea-menu-item {
+    padding: 32px 0;
+    border-bottom: 1px solid rgba(143, 126, 123, 0.15);
+}
+
+.tea-menu-item:first-child {
+    padding-top: 0;
+}
+
+.tea-menu-item:last-child {
+    border-bottom: none;
+}
+
+.tea-item-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 8px;
+}
+
+.tea-item-name {
+    font-family: "Noto Serif", serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #e5e2dd;
+}
+
+.tea-item-price {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #e6beac;
+}
+
+.tea-item-desc {
+    font-family: "Noto Serif", serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    color: #9f938d;
+    letter-spacing: 0.02em;
+}
+
+/* right intro column */
+.tea-intro {
+    padding-top: 20px;
+}
+
+.tea-title {
+    font-family: "Noto Serif", serif;
+    font-size: 56px;
+    font-weight: 300;
+    font-style: italic;
+    color: #e5e2dd;
+    margin-bottom: 30px;
+}
+
+.tea-image-wrap img {
+    width: 100%;
+    max-width: 420px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 6px;
+}

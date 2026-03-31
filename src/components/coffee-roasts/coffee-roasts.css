@@ -1,0 +1,85 @@
+.coffee-roasts {
+    padding: 80px 6vw 60px;
+    background: #131411;
+    color: #fdf9f4;
+}
+
+.coffee-roasts-grid {
+    display: grid;
+    grid-template-columns: 1fr 1.8fr;
+    gap: 6rem;
+    align-items: start;
+}
+
+/* left intro column */
+.coffee-intro {
+    position: sticky;
+    top: calc(10vh + 70px);
+}
+
+.coffee-title {
+    font-family: "Noto Serif", serif;
+    font-size: 56px;
+    font-weight: 300;
+    font-style: italic;
+    color: #e5e2dd;
+    margin-bottom: 24px;
+}
+
+.coffee-desc {
+    font-family: "Noto Serif", serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 1.65;
+    color: #d4c3be;
+    max-width: 320px;
+}
+
+/* right items column */
+.coffee-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item {
+    padding: 32px 0;
+    border-bottom: 1px solid rgba(143, 126, 123, 0.15);
+}
+
+.menu-item:first-child {
+    padding-top: 0;
+}
+
+.menu-item:last-child {
+    border-bottom: none;
+}
+
+.menu-item-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 8px;
+}
+
+.menu-item-name {
+    font-family: "Noto Serif", serif;
+    font-size: 22px;
+    font-weight: 500;
+    color: #e5e2dd;
+}
+
+.menu-item-price {
+    font-family: "Manrope", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #e6beac;
+}
+
+.menu-item-desc {
+    font-family: "Noto Serif", serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    color: #9f938d;
+    letter-spacing: 0.02em;
+}

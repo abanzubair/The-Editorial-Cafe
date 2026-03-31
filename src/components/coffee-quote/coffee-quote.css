@@ -1,0 +1,46 @@
+.coffee-quote {
+    padding: 80px 6vw;
+    background: #131411;
+}
+
+.coffee-quote-inner {
+    display: flex;
+    gap: 30px;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 60px 0;
+}
+
+.coffee-quote-bar {
+    width: 2px;
+    min-height: 100%;
+    background-color: #7D5A50;
+    flex-shrink: 0;
+}
+
+.coffee-quote-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.coffee-quote-text {
+    font-family: "Noto Serif", serif;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: italic;
+    line-height: 1.5;
+    color: #e6beac;
+}
+
+.coffee-quote-author {
+    display: block;
+    margin-top: 24px;
+    font-family: "Manrope", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #9f938d;
+}
