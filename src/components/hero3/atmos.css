@@ -1,55 +1,58 @@
-.atmos{
-
+.atmos {
     margin: 0 230px;
-    min-height: 100vh;
+    height: 100vh;
     gap: 3.5rem;
 
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-content: center;
+    align-items: center;
 
-    color:#e5e2dd;
+    color: #e5e2dd;
 }
 
-span{
+span {
     padding: 8px;
 }
 
-.hero3-img img{
-    width: 475px;
-    height: 569px;
+.hero3-img img {
+    width: 30vw;
+    height: 70vh;
     object-fit: cover;
     margin-top: 50px;
 }
 
-.atmos-brew h1{
+.atmos-brew{
+    width: 30vw;
+}
+.atmos-brew h1 {
     font-size: 60px;
     font-weight: lighter;
     line-height: 1;
     margin-bottom: 20px;
 }
 
-.narrative{
+.narrative {
     display: flex;
     gap: 10px;
     padding-bottom: 35px;
     padding-top: 15px;
 }
 
-.design{
+.design {
     display: flex;
     gap: 10px;
     padding-bottom: 35px;
 }
 
-.atmos-brew h3{
+.atmos-brew h3 {
     font-family: "Nato serif";
     font-size: 22px;
     font-weight: lighter;
     color: #e5e2dd;
 }
 
-.atmos p{
+.atmos p {
     letter-spacing: 2%;
     font-family: "nato serif";
     color: #d4c3be;
@@ -57,27 +60,27 @@ span{
     line-height: 1.5;
 }
 
-.quote-box{
+.quote-box {
     border-left: 1px solid #cfa08f;
     padding-left: 30px;
     height: 170px;
     display: flex;
     flex-direction: column;
-    justify-content: center;    
+    justify-content: center;
 }
 
-.quote-box p{
+.quote-box p {
     margin-top: 10px;
     font-style: italic;
     font-weight: 600;
     font-size: 26px !important;
-    color:#e6beac;
+    color: #e6beac;
 }
 
-.quote-author{
-    display:block;
-    margin-top:20px;
-    letter-spacing:2px;
-    font-size:12px;
-    color:#9f938d;
+.quote-author {
+    display: block;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-size: 12px;
+    color: #9f938d;
 }
