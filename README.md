@@ -1,68 +1,59 @@
-# ☕ The Editorial Cafe — React Website
+# The Editorial Café — React Website
 
-A modern and responsive cafe website built using **React + Vite** as part of my **Web Programming university course**.
-**The Editorial Cafe** is designed with a clean, aesthetic interface that blends a cozy cafe vibe with a minimal editorial-style layout.
+## Overview
 
----
-
-## 🚀 Features
-
-* 🏠 Elegant **Landing Page**
-* 🍰 Interactive **Menu Section**
-* ⏰ Live **Clock / Timing Component**
-* 📍 **Contact & Location Section**
-* 🧭 Smooth **Navigation Bar**
-* 🎨 Clean **Editorial-style UI Design**
-* ⚡ Fast loading with **Vite**
+The Editorial Café is a React website for a fictional café concept built around literature and coffee. It was made as a coursework assignment to practice core React patterns across a multi-page layout.
 
 ---
 
-## 🛠️ Tech Stack
+## Features
 
-* React.js
-* Vite
-* JavaScript
-* HTML
-* CSS
-
----
-
+- Hero section with the café's theme and intro copy
+- Seasonal menu section
+- Storytelling/atmosphere section
+- Journal cards built with a reusable component
+- Responsive layout
+- Component-based file structure
 
 ---
 
-## ▶️ How to Run
+## React Concepts Covered
 
-```
-git clone https://github.com/abanzubair/React-Project.git
-cd msf-cafe
-npm install
-npm run dev
-```
+This project covers the following React topics as required by the course:
 
----
-
-## 🎯 Purpose
-
-This project demonstrates:
-
-* React component based design
-* Responsive layout creation
-* UI/UX structuring
-* Real-world cafe website development
+- JSX
+- Components and Component API
+- Lifecycle via Hooks
+- Constructors (where applicable)
+- DevTools compatibility
+- State and Props
+- Props validation
+- CSS/component styling
+- `useState` and `useEffect`
+- React Router
+- Deployment setup
 
 ---
 
-## 👨‍💻 Author
+## Tech Stack
 
-**Aban Zubair**
-B.Tech Computer Science Engineering
+- React
+- JavaScript
+- CSS
+- React Router
+- Google Fonts
 
 ---
 
-## ⭐ Future Scope
+## Running Locally
 
-* Online ordering system
-* Table reservation feature
-* Backend integration
-* Animations
-* Dark mode
+1. Clone the repo
+2. Run `npm install`
+3. Run `npm run dev`
+
+---
+
+## Author
+
+Built by **Aban Zubair**  
+B.Tech CSE, Vellore Institute of Technology
