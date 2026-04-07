@@ -4,7 +4,7 @@ import './navbar.css'
 const Navbar = () => {
     return (
         <div className="navbar">
-            <Link to="/" className="logo" style={{ textDecoration: 'none', color: 'inherit' }}>The Editorial Café</Link>
+            <Link to="/" className="logo" style={{ textDecoration: 'none', color: 'inherit' }}><h1>The Editorial Café</h1></Link>
 
             <ul>
                 <li><Link to="/menu" style={{ textDecoration: 'none', color: 'inherit' }}>Menu</Link></li>

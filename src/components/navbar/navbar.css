@@ -24,13 +24,36 @@
     backdrop-filter: blur(15px);
 }
 
-.logo{
+.logo h1{
     font-family: 'Noto Serif', serif;
     font-style: italic;
     font-size: x-large;
     cursor: pointer;
-    
+    font-weight: 400;
 }
+
+/* .logo h1:hover {
+    color: #e9bcb0;
+    transition: all 0.3s ease;
+
+} */
+
+
+.logo h1{
+    position: relative;
+    display: inline-block;
+    background: linear-gradient(to top left, white 50%, #e9bcb0 50%);
+    background-size: 200% 200%;
+    background-position: bottom right;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background-position 0.5s ease;
+}
+
+.logo h1:hover{
+    background-position: top left;
+}
+
 
 .navbar ul{
     font-family: 'Noto Serif', serif;
@@ -38,7 +61,11 @@
     display: flex;
     list-style: none;
     gap: 3rem;
+}
 
+.navbar ul li:hover{
+    transform: scale(1.05);
+    transition: all 0.35s ease;
 }
 
 .order-btn button{
