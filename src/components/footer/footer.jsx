@@ -12,7 +12,7 @@ const Footer = () =>{
             <div className="middle">
                 <div className="list">
                     <ul>
-                        <li>CONTACT US</li>
+                        <li><a href="mailto:abanzubair@gmail.com">CONTACT US</a></li>
                         <li>PRIVACY POLICY</li>
                         <li>TERMS OF SERVICE</li>
                     </ul>
