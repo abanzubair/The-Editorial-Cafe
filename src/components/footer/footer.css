@@ -33,3 +33,13 @@
     color: #fdf9f463;
     letter-spacing: 12%;
 }
+
+.footer a{
+    color: #fdf9f463;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover{
+    color: #fdf9f4;
+}

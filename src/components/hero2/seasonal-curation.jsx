@@ -18,7 +18,7 @@ class Seasonal_curation extends Component {
     console.log('Seasonal section unmounting');
   }
 
-  // Component API — setState updates the selectedDrink value
+  // Component API - setState updates the selectedDrink value
   selectDrink = (name) => {
     this.setState({ selectedDrink: name });
   };
