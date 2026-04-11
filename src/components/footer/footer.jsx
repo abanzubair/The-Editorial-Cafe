@@ -23,7 +23,7 @@ const Footer = () =>{
                 <div className="social">
                     <ul>
                         <li><a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">INSTAGRAM</a></li>
-                        <li>FACEBOOK</li>
+                        <li><a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">FACEBOOK</a></li>
                     </ul>
                 </div>
             </div>
